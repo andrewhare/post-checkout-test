@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo "post-checkout test"
+echo "pre HEAD ref: ${PRE_COMMIT_PREV_HEAD_REF}"
+echo "new HEAD ref: ${PRE_COMMIT_NEW_HEAD_REF}"
+echo "checkout type: ${PRE_COMMIT_CHECKOUT_TYPE}"

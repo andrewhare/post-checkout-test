@@ -1,0 +1,5 @@
+-   id: post-checkout-test
+    name: Post checkout test
+    description: Test a post-checkout hook.
+    entry: post-checkout-test
+    language: script
